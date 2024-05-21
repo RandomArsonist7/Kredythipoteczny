@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kredythipoteczny" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/tekhelet</item>
+        <item name="colorPrimaryVariant">@color/tekhelet</item>
+        <item name="colorOnPrimary">@color/periwinkle</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/tropicalindigo</item>
+        <item name="colorSecondaryVariant">@color/tropicalindigo</item>
+        <item name="colorOnSecondary">@color/richblack</item>
+
+        <item name="colorTertiary">@color/periwinkle</item>
+        <item name="android:textColorSecondary">@color/periwinkle</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="motionEasingStandard">@interpolator/mtrl_fast_out_slow_in</item>
+        <item name="motionEasingEmphasized">@interpolator/mtrl_linear_out_slow_in</item>
+        <item name="motionEasingDecelerated">@interpolator/mtrl_linear_out_slow_in</item>
+        <item name="motionEasingAccelerated">@interpolator/mtrl_fast_out_linear_in</item>
+    </style>
+</resources>
